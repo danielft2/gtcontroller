@@ -38,63 +38,6 @@
     margin-bottom: 100px;
 }
 
-.tecnologias-usadas {
-    align-self: flex-end;
-    justify-self: flex-end;
-}
-
-.tecnologias-usadas h3 {
-    color: #dfdfdf;
-    font-size: 1.3rem;
-    margin-bottom: 40px;
-}
-
-.tecnologias-usadas i {
-    font-size: 28px;
-    color: #B4B3B3;
-    transform: translateY(0px);
-    animation:  float 1.5s 0.1s ease-in-out infinite;
-}
-
-#html5 {
-    animation:  float 1.5s ease-in-out infinite;
-}
-
-#css3 {
-    animation:  float 1.5s 0.1s ease-in-out infinite;
-}
-
-#angular {
-    animation:  float 1.5s 0.2s ease-in-out infinite;
-}
-
-#bootstrap {
-    animation:  float 1.5s 0.3s ease-in-out infinite;
-}
-
-#figma {
-    animation:  float 1.5s 0.4s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-30px);
-    }
-    100% {  
-        transform: translateY(0px);
-    }
-}
-
-.tecnologias-itens {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
 .informacoes-extra-titulo {
     font-size: 1.8rem;
     color: #F7F7F7;
@@ -127,11 +70,6 @@
         grid-template-columns: 1fr;
         margin-bottom: 50px;
         gap: 100px;
-    }
-
-    .tecnologias-usadas {
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -194,10 +132,6 @@
 
     .informacoes-extra-texto {
         font-size: 0.9rem;
-    }
-
-    .tecnologias-usadas h3 {
-        font-size: 1.1rem;
     }
 }
 
