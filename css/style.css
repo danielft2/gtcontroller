@@ -26,5 +26,9 @@
 @import './sistemas/contato.css';
 
 @import './oportunidades/introducao.css';
-@import './oportunidades/form.css'
+@import './oportunidades/form.css';
+
+@import './assessoria/banner.css';
+@import './assessoria/introducao.css';
+@import './assessoria/tiposAssessorias.css';
 

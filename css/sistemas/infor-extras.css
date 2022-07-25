@@ -1,5 +1,7 @@
 .informacoes-extras {
-    background-color: #045577; 
+    background-image: url('../../assets/sistemas/gerais/banner.png'); 
+    background-position: center;
+    background-size: cover;
     position: relative;
 }
 
@@ -41,13 +43,11 @@
 .informacoes-extra-titulo {
     font-size: 1.8rem;
     color: #F7F7F7;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .informacoes-extra-texto {
-    font-size: 1.05rem;
-    font-family:  'Roboto', sans-serif;
-    line-height: 1.3;
+    font-size: 0.95rem;
     max-width: 60ch;
     color: #D3D3D3;
 }

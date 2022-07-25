@@ -32,9 +32,9 @@
 .introducao-titulo-sistenas {
     color: white;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
 }
 
 .sistemas-introducao {
@@ -97,15 +97,13 @@
 .diferencial-nome {
     font-size: 1rem;
     font-weight: 600;
-    color: #051441cc;
+    color: var(--cor-6);
 }
 
 .diferencial-descri {
-    font-family:  'Roboto', sans-serif;
     color: #717171;
     max-width: 80%;
-    line-height: 1.25;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 #detalhe-1 {

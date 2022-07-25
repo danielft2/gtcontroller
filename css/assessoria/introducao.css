@@ -1,0 +1,88 @@
+.assesoria-introducao {
+    margin-bottom: 100px;
+    min-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assesoria-intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.assessoria-content-left {
+    max-width: 50%;
+}
+
+.assessoria-left-infor {
+    display: flex;
+    flex-direction: column;
+}
+
+.assesoria-left-subtitulo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.assessoria-content-left a {
+    align-self: flex-start;
+    display: inline-block;
+    padding: 10px 20px;
+
+    background-color: var(--cor-p1);
+    border-radius: 900px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .introducao-titulo-sistenas {
+        font-size: 2rem;
+        margin-bottom: -4px;
+    }
+
+    .assesoria-introducao {
+        margin-bottom: 40px;
+    }
+
+    .assesoria-intro-content {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    .assessoria-content-left {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .assessoria-right-image img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .introducao-titulo-sistenas {
+        font-size: 1.5rem;
+        margin-bottom: -4px;
+    }
+
+    .assessoria-left-titulo,
+    .assessoria-tipos-titulo {
+        font-size: 1.3rem;
+    }
+
+    .assessoria-left-descri {
+        font-size: 0.9rem;
+    }
+
+}
