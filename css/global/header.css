@@ -117,7 +117,7 @@
     }
 
     .nav.active .header-menu {
-        height: 180px;
+        height: 210px;
         visibility: visible;
         overflow: none;
     }
@@ -177,6 +177,3 @@
     }
 }
 
-@media (max-width: 310px) {
-
-}
