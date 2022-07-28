@@ -1,5 +1,4 @@
 export default function initNavigation() {
-
     function TabNavigation() {
         const html = {
             links: document.querySelectorAll('.tab-links button'),
