@@ -1,0 +1,48 @@
+.introducao-previdencia {
+    margin-top: 40px;
+    position: relative;
+}
+
+.intro-previdencia-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.previdencia-content-left {
+    max-width: 50%;
+}
+
+.previdencia-content-left span {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .intro-previdencia-content  {
+        flex-direction: column-reverse;
+    }
+
+    .previdencia-content-left {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .previdencia-content-rigth img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .intro-titulo-previdencia {
+        font-size: 1.3rem;
+    }
+
+    .intro-descri-previdencia {
+        font-size: 0.9rem;
+    }
+}
+
