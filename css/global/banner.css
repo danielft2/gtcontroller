@@ -78,7 +78,7 @@
     }
 
     .banner-introducao {
-        margin-right: 60px;
+        margin-right: 120px;
     }
 
     .imagem-banner {
@@ -88,7 +88,12 @@
 
 @media (max-width: 600px) {
     .banner-secundario {
-        padding: 80px 0px 0px 60px;
+        padding: 80px 0px 40px 60px;
+        margin-bottom: 40px;
+    }
+
+    .banner-introducao {
+        margin-right: 60px;
     }
 
     .titulo-banner {
