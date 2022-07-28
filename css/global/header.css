@@ -1,15 +1,21 @@
 .header {
+    background-color: white;
+    box-shadow: 0px 0px 0px 3px #00000008
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     max-width: 1500px;
-    padding: 10px 60px;
-    margin: auto;
+    padding: 8px 60px;
+    margin: 0 auto;
 }
 
 .logo img {
     padding-top: 10px;
-    max-width: 47%;
+    max-width: 85%;
 }
 
 #btn-mobile {
@@ -29,19 +35,8 @@
     position: relative;
 }
 
-.header-menu li a::before {
-    content: "";
-    width: 0;
-    height: 2px;
-    background-color: var(--cor-0);
-    border-radius: 3px;
-    position: absolute;
-    bottom: 15px;
-    transition: all 0.3s ease-in-out;
-}
-
-.header-menu li a:hover::before {
-    width: calc(100% - 40px);
+.header-menu li a:hover {
+    color: var(--cor-p2)
 }
 
 @media (max-width: 1250px) {
@@ -79,6 +74,8 @@
         overflow: hidden;
         visibility: hidden;
         transition: 0.5s; 
+
+        box-shadow: 0px 15px 11px 0px #0000000f;
     }
 
     #hamburguer {
@@ -137,7 +134,7 @@
 
 @media (max-width: 770px) {
     .logo img {
-        max-width: 40%;
+        max-width: 70%;
     }
 
     .header-menu {
@@ -145,7 +142,7 @@
     }
 
     .nav.active .header-menu {
-        height: 260px;
+        height: 280px;
     }
 
     .header-menu li a {
@@ -154,8 +151,8 @@
 }
 
 @media (max-width: 600px) {
-    .header {
-        padding: 10px 20px;
+    .header-content {
+        padding: 10px 26px;
     }
 
     .header-menu {
@@ -165,8 +162,7 @@
 
 @media (max-width: 500px) {
     .logo img {
-        padding-top: 10px;
-        max-width: 35%;
+        max-width: 60%;
     }
 
     .header-menu {

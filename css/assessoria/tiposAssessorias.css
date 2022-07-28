@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    background-color: var(--cor-6);
+    background-color: #130528;
     padding: 28px;
     border-radius: 4px;
     transition: all 0.2s ease-in;
@@ -43,8 +43,8 @@
 
 .assessoria-tipo-item  i {
     padding: 8px;
-    background-color: #2B424C;
-    color: var(--cor-p1);
+    background-color: var(--cor-p3);
+    color: var(--cor-0);
     border-radius: 4px;
 }
 
@@ -55,12 +55,12 @@
 }
 
 .assessoria-tipo-item:hover {
-    background-color: var(--cor-1);
+    background-color: var(--cor-0);
 }
 
 .assessoria-tipo-item:hover i {
-    background-color: var(--cor-p1);
-    color: var(--cor-p2);
+    background-color: var(--cor-p3);
+    color: var(--cor-0);
 }
 
 @media (max-width: 500px) {

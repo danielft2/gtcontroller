@@ -5,6 +5,7 @@
 
 /*Global*/
 @import './global/global.css';
+@import '/css/global/banner.css';
 @import './global/header.css';
 @import './global/footer.css';
 

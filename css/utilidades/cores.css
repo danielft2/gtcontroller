@@ -1,25 +1,19 @@
 :root {
     --cor-0: #ffffff;
-    --cor-1: #F4F4F4;
+    --cor-1: #E4E4E4;
     --cor-2: #d3d3d3;
     --cor-2: #cfcfcf;
     --cor-3: #a3a3a3;
     --cor-4: #717171;
     --cor-5: #494949;
     --cor-6: #2e2e2e;
-    --cor-7: #121214;
+    --cor-7: #200F3B;
     --cor-8: #09090a;
     --cor-9: #494949;
     
-    --cor-p1: #178FC1;
-    --cor-p2: #046088;
-    --cor-p3: #051441cc;
-
-    --cor-s1: #E12929;
-    --cor-s2: #FFBC0F;
-
-    --cor-backend: #E12929;
-    --cor-design: #E147FA;
+    --cor-p1: #00ADEE;
+    --cor-p2: #2E3091;
+    --cor-p3: #523187;
 }
 
 .cor-0 {
