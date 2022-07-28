@@ -44,8 +44,7 @@
     width: calc(100% - 40px);
 }
 
-@media (max-width: 1000px) {
-
+@media (max-width: 1250px) {
     .header {
         background-color: var(--cor-0)
     }
@@ -117,7 +116,7 @@
     }
 
     .nav.active .header-menu {
-        height: 210px;
+        height: 300px;
         visibility: visible;
         overflow: none;
     }
@@ -143,6 +142,10 @@
 
     .header-menu {
         top: 80px;
+    }
+
+    .nav.active .header-menu {
+        height: 260px;
     }
 
     .header-menu li a {

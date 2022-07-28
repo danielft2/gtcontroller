@@ -1,0 +1,23 @@
+.banner-previdencia {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.81) 21.7%, rgba(0, 0, 0, 0.62) 98.36%),
+    url("../../assets/previdencia/gerais/banner-previdencia.jpg");
+    height: 60vh;
+    max-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: zoom 0.8s ease-in-out;
+}
+
+.introducao-sistemas {
+    height: 70%;
+    display: grid;
+    align-content: center;
+}
+
+.introducao-titulo-sistenas {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}

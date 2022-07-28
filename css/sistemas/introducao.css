@@ -29,14 +29,6 @@
     align-content: center;
 }
 
-.introducao-titulo-sistenas {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 4px;
-}
-
 .sistemas-introducao {
     margin-top: 50px;
     margin-bottom: 70px;
@@ -48,16 +40,8 @@
     gap: 50px;
 }
 
-.introducao-titulo-sistenas {
-    margin-bottom: 5px;
-}
-
 .sistemas-img img {
     border-radius: 5px;
-}
-
-.introducao-subtitulo-sistemas {
-    color: #cfcfcf;
 }
 
 .sistemas-subtitulo {

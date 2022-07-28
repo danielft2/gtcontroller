@@ -12,7 +12,7 @@
 @import './utilidades/cores.css';
 
 /*Controller*/
-@import './controller/introducao.css';
+@import './controller/banner.css';
 @import './controller/quemSomos.css';
 @import './controller/parceiros.css';
 @import './controller/principios.css';
@@ -32,3 +32,6 @@
 @import './assessoria/introducao.css';
 @import './assessoria/tiposAssessorias.css';
 
+@import './previdencia/banner.css';
+@import './previdencia/introducao.css';
+@import './previdencia/assessoriaPrevidenciaria.css'
