@@ -1,13 +1,17 @@
 .banner-secundario {
     max-width: 1500px;
     margin: auto;
-    padding: 20px 0px 10% 60px;
+}
+
+.banner-introducao {
+    padding: 20px 60px 0px 60px;
 }
 
 .banner-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .diferencias-setor {
@@ -65,11 +69,9 @@
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .banner-secundario {
-        max-width: 1500px;
-        margin: auto;
-        padding: 80px 0px 10% 60px;
+        padding-top: 40px;
     }
 
     .banner-content {
@@ -78,7 +80,7 @@
     }
 
     .banner-introducao {
-        margin-right: 120px;
+        align-self: flex-start;
     }
 
     .imagem-banner {
@@ -88,12 +90,11 @@
 
 @media (max-width: 600px) {
     .banner-secundario {
-        padding: 80px 0px 40px 60px;
-        margin-bottom: 40px;
+        padding-top: 40px;
     }
 
     .banner-introducao {
-        margin-right: 60px;
+        padding: 20px 30px 0px 30px;
     }
 
     .titulo-banner {
@@ -115,7 +116,6 @@
 
 @media (max-width: 400px) {
     .banner-introducao {
-        margin-right: 0px;
         max-width: 95%;
     }
 
