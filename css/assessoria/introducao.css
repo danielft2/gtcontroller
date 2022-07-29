@@ -6,6 +6,9 @@
 
     position: relative;
     background-color: var(--cor-1);
+
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .assesoria-intro-content {
@@ -32,17 +35,13 @@
 }
 
 @media (max-width: 900px) {
-    .assesoria-introducao {
-        margin-bottom: 40px;
-    }
-
     .assesoria-intro-content {
         flex-direction: column-reverse;
-        gap: 40px;
+        gap: 60px;
     }
     
     .assessoria-content-left {
-        max-width: 80%;
+        max-width: 100%;
         text-align: center;
     }
 

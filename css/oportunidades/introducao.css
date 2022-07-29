@@ -1,29 +1,12 @@
-.banner-trabalheConosco {
-    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.81) 21.7%, rgba(0, 0, 0, 0.62) 98.36%),
-    url("../../assets/oportunidades/gerais/banner-oportunidades.jpg");
-    height: 60vh;
-    max-height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-    animation: zoom 0.8s ease-in-out;
-} 
-
-@keyframes zoom {
-    0% {
-        background-size: 150%;
-    }
-    100% {
-        background-size: 100%;
-    }
-}
-
 .introducao-trabalhe-conosco {
-    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    background-color: var(--cor-1);
+
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .trabalhe-conosco-content {
@@ -51,7 +34,7 @@
     display: inline-block;
     padding: 10px 20px;
 
-    background-color: var(--cor-p1);
+    background-color: var(--cor-p3);
     border-radius: 900px;
     color: white;
     font-weight: 500;
@@ -86,10 +69,6 @@
     align-items: center;
     gap: 12px;
     font-size: 0.9rem;
-}
-
-.left-beneficios-itens li i {
-    color: var(--cor-p1);
 }
 
 .oportunidades-intro {

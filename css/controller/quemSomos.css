@@ -119,6 +119,10 @@
     .caracteristica span {
         font-size: 0.9rem;
     }
+
+    .quem-somos-imagem {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
