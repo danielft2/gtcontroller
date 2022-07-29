@@ -24,6 +24,7 @@
 
 .header-menu {
     display: flex;
+    list-style: none;
 }
 
 .header-menu li a {

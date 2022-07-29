@@ -1,5 +1,7 @@
 .quem-somos {
-    margin-bottom: 90px;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-color: var(--cor-1);
 }
 
 .quem-somos-content {

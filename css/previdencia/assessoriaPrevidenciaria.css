@@ -2,6 +2,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
+    background-color: var(--cor-1);
 }
 
 .tab-content-flex {
@@ -13,7 +14,7 @@
     align-items: flex-start;
 }
 
-.tab-content-flex p {
+.tab-content-flex li {
     margin-bottom: 20px;
     max-width: 60ch;
     font-family: 'Roboto', sans-serif;
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 48px;
-    border-bottom: solid 2px var(--cor-1);
+    border-bottom: solid 2px var(--cor-2);
     width: 100%;
     padding-bottom: 8px;
     margin-bottom: 40px;
@@ -53,14 +54,13 @@
 
 .tab-links button i {
     font-size: 22px;
-    color: var(--cor-p1);
 }
 
 .tab-links button::after {
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--cor-p1);
+    background-color: var(--cor-p3);
 
     position: absolute;
     bottom: -10px;

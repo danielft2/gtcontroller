@@ -44,6 +44,10 @@
     gap: 10px;
 }
 
+.footer-lista {
+    list-style: none;
+}
+
 .footer-lista li a {
     display: block;
     margin-bottom: 10px;
