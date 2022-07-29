@@ -1,7 +1,8 @@
 .parceiros {
     overflow: hidden;
-    width: 100%;
+    width: 1050px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .parceiros-carrousel {
@@ -45,8 +46,8 @@
 }
 
 .parceiros-marcador.active {
-    background-color: var(--cor-p1);
-    border-color: var(--cor-p1);
+    background-color: var(--cor-p3);
+    border-color: var(--cor-p3);
 }
 
 .decoracao img {
@@ -57,21 +58,38 @@
 }
 
 @media (max-width: 1300px) {
+    .parceiros {
+        width: 800px;
+    }
+
     .parceiros-carrousel {
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media (max-width: 850px) {
-    .parceiros-carrousel {
-        width: 70%;
+    .parceiros {
+        width: 550px;
     }
 }
 
+@media (max-width: 600px) { 
+    .parceiros {
+        width: 480px;
+    }
+
+    .parceiros-carrousel {
+        width: 100%;
+    }
+}
 
 @media (max-width: 500px) {
+    .parceiros {
+        width: 320px;
+    }
+
     .parceiros-carrousel {
-        width: 50%;
+        width: 68%;
     }
 }
 

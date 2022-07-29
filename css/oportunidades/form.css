@@ -6,7 +6,6 @@
     align-items: center;
     height: 80vh;
     max-height: 1000px;
-    background-color: var(--cor-7);
     border-bottom: solid 0.5px #3a3a3a;
     position: relative;
 }
@@ -50,7 +49,7 @@
 }
 
 .form-content-rigth i {
-    color: white;
+    color: var(--cor-p3);
 }
 
 .form-curriculo-group {
@@ -63,29 +62,20 @@
     margin-bottom: 4px;
 }
 
-/*.label-file {
-    border: dashed 0.5px;
-    padding: 10px 14px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-}
-*/
-
 .form-curriculo-group input, .form-curriculo-group textarea {
     width: 100%;
     padding: 10px 14px;
     border-radius: 4px;
     border: solid 0.5px transparent;
-    background-color: #494949;
+    background-color: var(--cor-1);
     outline: none;
     font-size: 0.8rem;
     font-family: inherit;
-    color: var(--cor-2);
+    color: var(--cor-4);
 }
 
 .form-curriculo-group input::placeholder {
-    color: var(--cor-3);
+    color: var(--cor-4);
     font-weight: 500;
 }
 
@@ -99,7 +89,7 @@
     padding: 10px 30px;
     margin-top: 20px;
     border: none;
-    background-color: #8960C2;
+    background-color: var(--cor-p3);
     border-radius: 4px;
     font-size: 0.85rem;
     font-weight: 500;

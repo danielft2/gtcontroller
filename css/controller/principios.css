@@ -1,5 +1,5 @@
 .principios-bg {
-    background-color: var(--cor-8);
+    background-color: var(--cor-7);
     padding: 40px 0px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .lista-item {
-    background-color: var(--cor-6);
+    background-color: #130528;
     padding: 30px;
     border-radius: 5px;
     position: relative;
@@ -58,6 +58,15 @@
     font-size: 0.85rem;
     font-weight: normal;
 }
+
+.lista-item:hover  {
+    transform: scale(1.05);
+}
+
+.lista-item:hover i {
+    color: white;
+}
+
 
 @media (max-width: 1150px) {
     .principios-lista .lista {

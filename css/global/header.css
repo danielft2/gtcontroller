@@ -106,7 +106,7 @@
     }
 
     .header-menu li a:hover {
-        color: var(--cor-p1);
+        color: var(--cor-p3);
     }
 
     .header-menu li a:hover::before {
