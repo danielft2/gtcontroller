@@ -85,10 +85,6 @@
 }
 
 @media (max-width: 700px) {
-    .quem-somos {
-        margin-bottom: 50px;
-    }
-
     .quem-somos-titulo {
         font-size: 1.6rem;
         margin-bottom: 10px;
