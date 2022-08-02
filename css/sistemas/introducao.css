@@ -5,12 +5,6 @@
    padding-bottom: 40px;
 }
 
-.introducao-sistemas {
-    height: 50%;
-    display: grid;
-    align-content: center;
-}
-
 .sistemas-introducao {
     margin-top: 50px;
     margin-bottom: 70px;
@@ -80,10 +74,6 @@
 }
 
 @media (max-width: 770px) {
-    .introducao-titulo-sistenas {
-        font-size: 1.8rem;
-    }
-
     .sistemas-titulo {
         font-size: 1.7rem;
     }
@@ -112,11 +102,6 @@
 }
 
 @media (max-width: 500px) {
-    .introducao-titulo-sistenas {
-        font-size: 1.6rem;
-        margin-bottom: 0px;
-    }
-
     .solucao-item-img img {
         max-width: 70%;
         margin-left: 15%;
@@ -131,25 +116,12 @@
 }
 
 @media (max-width: 450px) {
-    .banner-sistemas {
-        margin-bottom: 0px;
-    }
-
     .sistemas-introducao {
         margin-bottom: 40px;
     }
 }
 
 @media (max-width: 380px) {
-    .introducao-titulo-sistenas {
-        font-size: 1.5rem;
-        margin-bottom: 0px;
-    }
-
-    .introducao-subtitulo-sistemas {
-        font-size: 0.9rem;
-    }
-
     .sistemas-titulo {
         font-size: 1.2rem;
         margin-bottom: 40px;
