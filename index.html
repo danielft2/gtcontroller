@@ -433,6 +433,7 @@
         gtag('js', new Date());
 
         gtag('config', 'G-PWL1JMM9M6');
+        gtag('set', {'user_id': 'USER_ID'})
     </script>
     
     <script>
@@ -443,10 +444,13 @@
         
         ga('create', 'UA-237345911-1', 'auto');
         ga('send', 'G&T Controller');
-
+        
+        let clientId = '';
         ga(function(tracker) {
-            var clientId = tracker.get('clientId');
+            clientId = tracker.get('clientId');
         });
+
+        ga('set', 'userId', clientId); // Defina o ID de usuário usando o user_id conectado.
     </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9NB7JS4E8"></script>
