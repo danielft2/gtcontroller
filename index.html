@@ -443,6 +443,11 @@
         
         ga('create', '326971642', 'auto');
         ga('send', 'pageview');
+
+        ga(function(tracker) {
+            var clientId = tracker.get('clientId');
+            console.log(clientId);
+        });
     </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9NB7JS4E8"></script>
