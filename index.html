@@ -70,7 +70,11 @@
                 </div>         
             </div>
             <div class="imagem-banner" data-anime="rigth">
-                <img src="./assets/controller/gerais/banner.png" alt="">
+                <img 
+                  src="./assets/controller/gerais/banner.png" 
+                  alt=""
+                  loading="lazy"
+                >
             </div>
         </main>
     </section>
@@ -108,7 +112,12 @@
             </div>
             <picture class="quem-somos-imagem">
                 <source media="(max-width: 1000px)" srcset="./assets/controller/gerais/quem-somos-mobile.jpg">
-                <img src="./assets/controller/gerais/quem-somos-img.png" alt="Imagem de um prédio com pessoas" data-anime="rigth">
+                <img 
+                    src="./assets/controller/gerais/quem-somos-img.png" 
+                    alt="Imagem de um prédio com pessoas" 
+                    data-anime="rigth"
+                    loading="lazy"
+                >
             </picture>
         </div>
     </section>
@@ -191,8 +200,8 @@
                         </p>
                     </li>
                 </ul>
-            </div> <!--lista-principios-->
-        </div> <!--container-->
+            </div> 
+        </div> 
     </section>
     <!----------FIM PRINCIPIOS------------>
     
@@ -200,7 +209,11 @@
         <div class="servicos-oferecidos">
             <div class="servicos-grid container">
                 <div class="servico-img" data-anime="down">
-                    <img src="./assets/controller/gerais/img-servicos.jpg" alt="Imagem de um data center">
+                    <img 
+                        src="./assets/controller/gerais/img-servicos.jpg" 
+                        alt="Imagem de um data center"
+                        loading="lazy"
+                    >
                 </div>
                 <div class="servico-introducao">
                     <span class="servico-subtitulo cor-p1" data-anime="left">Nossos Serviços</span>
@@ -225,13 +238,21 @@
                         <a href="./sistemas.html" class="btn-servico">Conhecer</a>  
                     </div>
                     <div class="servico-item-img">
-                        <img src="./assets/controller/gerais/solucao.jpg" alt="Imagem de um notbook">
+                        <img 
+                            src="./assets/controller/gerais/solucao.jpg" 
+                            alt="Imagem de um notbook"
+                            loading="lazy"
+                        >
                     </div>
                 </div>
 
                 <div class="servico-item assessoria background" id="assessoria" data-anime>
                     <div class="servico-item-img">
-                        <img src="./assets/controller/gerais/assessoria.jpg" alt="Imagem de pessoas em uma mesa">
+                        <img 
+                            src="./assets/controller/gerais/assessoria.jpg" 
+                            alt="Imagem de pessoas em uma mesa"
+                            loading="lazy"
+                        >
                     </div>
                     <div class="servico-item-introducao">
                         <h3 class="titulo-servico">Assessoria de qualidade</h3>
@@ -252,11 +273,15 @@
                         </p>
                     </div>
                     <div class="servico-item-img">
-                        <img src="./assets/controller/gerais/previdencia.jpg" alt="Imagem de um idoso com uma mulher">
+                        <img 
+                            src="./assets/controller/gerais/previdencia.jpg" 
+                            alt="Imagem de um idoso com uma mulher"
+                            loading="lazy"
+                        >
                     </div>
                 </div>
-            </div> <!--lista-serviços-->
-        </div> <!--serviços-oferecidos-->
+            </div> 
+        </div> 
     </section>
     <!----------FIM SERVIÇOS------------>
 
@@ -367,8 +392,30 @@
                 </div>
             </div>
         </div>
-    </section> <!--container-->
+    </section> 
     <!----------FIM CONTATO------------>
+    <div class="cookies active">
+        <p class="cor-5">
+            Utilizamos cookies, de terceiros, que o reconhecem e identificam como um usuário único, 
+            para garantir a melhor experiência de navegação e melhorar o desempenho do nosso site e serviços.
+        </p>
+        
+        <p class="cor-5">
+            Esses Cookies nos permitem coletar alguns dados pessoais sobre você, como sua ID exclusiva atribuída 
+            ao seu dispositivo, endereço de IP, tipo de dispositivo e navegador, conteúdos visualizados ou outras 
+            ações realizadas usando nossos serviços, país e idioma selecionados, entre outros.
+        </p class="cor-5">
+         
+        <p class="cor-5">
+            Caso não concorde com o uso de cookies dessa forma, você deverá ajustar as configurações de 
+            seu navegador ou deixar de acessar o nosso site e serviços. Ao continuar com a navegação 
+            em nosso site, você aceita o uso de cookies.
+        </p>
+        
+        <button class="btn-cookies">
+            Aceitar Cookies
+        </button>
+    </div>
 
     <footer class="footer cor-0">
         <div class="container footer-informacoes">
@@ -418,6 +465,7 @@
             <span class="cooperigth cor-3">©G&T Controller. Alguns direitos reservados</span>
         </div> <!--container-->
     </footer>
+   
     <!----------FIM FOOTER------------>
     <script src="./js/modules/carousel.js"></script>
     <script type="module" src="./js/controller.js"></script>
