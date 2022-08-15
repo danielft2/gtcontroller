@@ -17,7 +17,7 @@ export default function initDropdown() {
     }
 
     btnMobile.addEventListener('click', dropdown);
-    btnMobile.addEventListener('touchstart', dropdown, {passive: true});
+    btnMobile.addEventListener('touchstart', dropdown);
 }
 
 
