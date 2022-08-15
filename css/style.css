@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Global*/
+@import './global/global.css';
+@import './global/banner.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/*Utilidades*/
+@import './utilidades/cores.css';
+
+/*Controller*/
+@import './controller/quemSomos.css';
+@import './controller/parceiros.css';
+@import './controller/principios.css';
+@import './controller/servicos.css';
+@import './controller/contato.css';
+
+/*Sistemas*/
+@import './sistemas/introducao.css';
+@import './sistemas/infor-extras.css';
+@import './sistemas/solucoes.css';
+@import './sistemas/contato.css';
+
+@import './oportunidades/introducao.css';
+@import './oportunidades/form.css';
+
+@import './assessoria/introducao.css';
+@import './assessoria/tiposAssessorias.css';
+
+@import './previdencia/introducao.css';
+@import './previdencia/assessoriaPrevidenciaria.css';

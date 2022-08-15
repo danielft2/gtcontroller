@@ -1,0 +1,141 @@
+.footer {
+    background-color: var(--cor-8);
+    padding: 20px 0px;
+}
+
+.logo-cooper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-descri img {
+    max-width: 40%;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+
+.footer-logo-descri p {
+    font-family:  'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.cooperigth {
+    font-size: 0.85rem;
+}
+
+.footer-informacoes {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.footer-links {
+    justify-self: center;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-menu, .footer-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-lista {
+    list-style: none;
+}
+
+.footer-lista li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+   
+    font-family:  'Roboto', sans-serif;
+    transition: all 0.2s ease;
+}
+
+.footer-lista li a:hover {
+    color: var(--cor-4);
+}
+
+.footer-rede-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.item-rede-social a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--cor-5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.item-rede-social .iconify {
+    font-size: 22px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.item-rede-social .iconify:hover {
+    color: var(--cor-0);
+}
+
+@media (max-width: 1000px) {
+    .footer-logo-descri img {
+        max-width: 25%;
+    }
+
+    .footer-logo-descri p {
+        max-width: 70ch;
+    }
+
+    .footer-informacoes {
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+    .footer-links {
+        justify-self: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-logo-descri img {
+        max-width: 35%;
+        margin-left: 0;
+    }
+
+    .footer-informacoes {
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+        justify-self: flex-start;
+    }
+
+    .cooperigth {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-logo-descri img {
+        max-width: 38%;
+        margin-left: 0;
+    }
+
+    .footer-logo-descri p {
+        line-height: 1.6;
+    }
+}

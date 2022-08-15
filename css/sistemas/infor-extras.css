@@ -1,0 +1,147 @@
+.informacoes-extras {
+    background-image: url('../../assets/sistemas/gerais/banner.jpg'); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.informacoes-extra-conteudo {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 60px 380px 60px;
+}
+
+.informacoes-img {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.informacoes-img img {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    max-width: 100%;
+    border-radius: 3px 3px 0px 0px; 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+.informacoes-img img.visible {
+    opacity: 1;
+}
+
+.informacoes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.informacoes-extra-titulo {
+    font-size: 1.8rem;
+    color: #F7F7F7;
+    margin-bottom: 4px;
+}
+
+.informacoes-extra-texto {
+    font-size: 0.95rem;
+    max-width: 60ch;
+    color: #D3D3D3;
+}
+
+.detalhe img {
+    color: #178FC1;
+}
+
+@media (max-width: 900px) {
+    .informacoes-extra-conteudo {
+        padding: 80px 60px 285px 60px;
+    }
+
+    .informacoes-img img {
+        width: 600px;
+        top: 0px;
+    }
+
+    .informacoes-grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 770px) {
+    .informacoes-extra-conteudo {
+        padding: 80px 60px 236px 60px;
+    }
+
+    .informacoes-extra-titulo {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+
+    .informacoes-img img {
+        width: 500px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .informacoes-grid {
+        gap: 70px;
+    }
+  
+    .informacoes-extra-conteudo {
+        padding: 80px 25px 190px 25px;
+    }
+
+    .informacoes-img img {
+        width: 400px;
+        top: 0px;
+    }
+
+    .informacoes-extra-titulo {
+        font-size: 1.4rem;
+    }
+
+    .informacoes-extra-texto {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .tecnologias-usadas h3 {
+        font-size: 1.1rem;
+    }
+
+    .informacoes-extra-conteudo {
+        padding: 50px 25px 142px 25px;
+    }
+
+    .informacoes-img img {
+        width: 300px;
+        top: 0px;
+    }
+
+    .informacoes-extra-titulo {
+        font-size: 1.3rem;
+    }
+
+    .informacoes-extra-texto {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .informacoes-extra-conteudo {
+        padding: 50px 25px 142px 25px;
+    }
+
+    .informacoes-img img {
+        width: 250px;
+        top: 23px;
+    }
+}
