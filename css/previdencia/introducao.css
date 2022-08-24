@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.previdencia-content-left p {
+    font-size: 0.95rem;
+}
+
 @media (max-width: 900px) {
     .intro-previdencia-content  {
         flex-direction: column-reverse;

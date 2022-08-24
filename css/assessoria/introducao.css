@@ -28,6 +28,10 @@
     flex-direction: column;
 }
 
+.assessoria-left-infor p {
+    font-size: 0.95rem;
+}
+
 .assesoria-left-subtitulo {
     text-transform: uppercase;
     font-weight: bold;

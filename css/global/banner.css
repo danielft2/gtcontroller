@@ -17,9 +17,10 @@
 
 .diferencias-setor {
     margin-top: 48px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, auto));
     align-items: center;
-    gap: 20px;
+    gap: 24px;
 }
 
 .diferencial-item {

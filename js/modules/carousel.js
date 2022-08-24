@@ -7,7 +7,7 @@ let valorInical = distancia;
 let pararSlide = false;
 
 function playSlide() {
-    if (indexImage == 7) {
+    if (indexImage == 12) {
         marcadores[indexImage].classList.remove('active');
         carrosel.style.transform = `translate3d(0%, 0px, 0px)`;
 
