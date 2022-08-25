@@ -61,6 +61,15 @@ label {
     display: none;
 }
 
+.cookies a {
+    color: blue;
+}
+
+.cookies p {
+    max-width: 98%;
+    font-size: 0.85rem;
+}
+
 .cookies.active {
     max-width: 90%;
     background-color: white;
@@ -78,6 +87,7 @@ label {
     animation: cookiesAnimation 1s ease-in;
 }
 
+
 @keyframes cookiesAnimation {
     0% {
         opacity: 0;
@@ -87,10 +97,6 @@ label {
         opacity: 1;
         transform: translateY(5%, 25px, 0);
     }
-}
-
-.cookies p {
-    font-size: 0.85rem;
 }
 
 .btn-cookies {
@@ -176,6 +182,10 @@ label {
     .container {
         padding: 10px 25px;
     }  
+
+    .btn-cookies {
+        align-self: center;
+    }
 }
 
 @media (max-width: 500px) {

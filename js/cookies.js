@@ -4,14 +4,12 @@ function initCookiesGA4() {
 
   function cookiesGA4() {  
     cookies.classList.remove('active');
-  
+
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-  
-    gtag("js", new Date());
-    gtag("config", "G-PWL1JMM9M6");
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2VKQTBQN4X');
   }
 
   function getCookie(nome) {

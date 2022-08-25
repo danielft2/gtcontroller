@@ -18,7 +18,7 @@
 .diferencias-setor {
     margin-top: 48px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(235px, auto));
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 24px;
 }
@@ -118,7 +118,7 @@
     }
 
     .diferencias-setor {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         align-items: flex-start;
     }
 }
