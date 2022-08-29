@@ -46,15 +46,16 @@ export default function initForm() {
                 body: JSON.stringify(getDataForm()),
                 headers: {
                     'Content-Type': 'application/json; charset=utf-8',
+                    'TOKEN': 'MDKDJIJUUU8RUG8RKFEOKFOEFU8EUF83020KF2435Ppdzdx76287zvgvfx16368gt',
                 },
             })
             .then(res => {    
                 modalSucess.classList.add('active');
-                setInterval(() => modalSucess.classList.remove('active'), 3500)
+                setInterval(() => modalSucess.classList.remove('active'), 3500);
             })
             .catch(error => {
-                modalErro.classList.add('active')
-                setInterval(() => modalErro.classList.remove('active'), 3500)
+                modalErro.classList.add('active');
+                setInterval(() => modalErro.classList.remove('active'), 3500);
             })
             .finally(() => {
                 inputs.forEach((item) => item.value = " ")

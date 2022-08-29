@@ -41,6 +41,9 @@ export default function initSendCurriculo() {
             fetch(`${base_URL}/sendCurriculo`, {
                 method: "POST",
                 body: getDataForm(),
+                headers: {
+                    'TOKEN': 'MDKDJIJUUU8RUG8RKFEOKFOEFU8EUF83020KF2435Ppdzdx76287zvgvfx16368gt',
+                }
             })
             .then(res => {    
                 modalSucess.classList.add('active');
