@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: center;
 
-    background-color: var(--cor-1);
-
     padding-top: 30px;
     padding-bottom: 30px;
 }

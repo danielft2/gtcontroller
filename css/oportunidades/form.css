@@ -7,6 +7,7 @@
     height: 80vh;
     max-height: 1000px;
     border-bottom: solid 0.5px #3a3a3a;
+    border-top: solid 0.5px #3a3a3a27;
     position: relative;
 }
 

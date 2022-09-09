@@ -1,8 +1,6 @@
 .introducao-previdencia {
-    margin-top: 40px;
     position: relative;
-    padding-top: 40px;
-    background-color: var(--cor-1);
+    padding: 3.2rem 0rem 3.2rem 0rem;
 }
 
 .intro-previdencia-content {
@@ -13,10 +11,13 @@
 }
 
 .previdencia-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     max-width: 50%;
 }
 
-.previdencia-content-left span {
+.previdencia-left-subtitulo {
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: bold;
@@ -24,6 +25,29 @@
 
 .previdencia-content-left p {
     font-size: 0.95rem;
+}
+
+.diferencias-setor-previdencia {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.diferencias-setor-previdencia .diferencial-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.diferencias-setor-previdencia .diferencial-item i {
+    color: var(--cor-p2);
+}
+
+.diferencias-setor-previdencia .diferencial-item span {
+    text-transform: capitalize;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 900px) {
@@ -39,6 +63,20 @@
     .previdencia-content-rigth img {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .previdencia-content-left .btn-primary {
+        align-self: center;
+    }
+    
+    .diferencias-setor-previdencia {
+        justify-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .diferencias-setor-previdencia {
+        grid-template-columns: 1fr;
     }
 }
 

@@ -1,43 +1,56 @@
+.banner-controller {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/controller/gerais/controller-bg.jpg');
+    height: 653px;
+}
+
+.banner-sistemas {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/sistemas/gerais/sistemas-bg.jpg');
+    height: 400px;
+}
+
+.banner-assessoria {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/assessoria/gerais/banner-assesoria.jpg');
+    height: 400px;
+}
+
+.banner-previdencia {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/previdencia/gerais/banner-previdencia.jpg');
+    height: 400px;
+}
+
+.banner-oportunidades {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/oportunidades/gerais/banner-oportunidades.jpg');
+    height: 400px;
+}
+
+
 .banner-secundario {
-    max-width: 1500px;
-    margin: auto;
-    margin-top: 100px;
+    margin-top: 5rem;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner-introducao {
-    padding: 20px 60px 0px 60px;
+    padding: 1.25rem 3.75rem 0rem 3.75rem;
 }
 
 .banner-content {
+    max-width: 1500px;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 120px;
+    justify-content: flex-start;
+    margin-bottom: 7.5rem;
+    height: 400px;
 }
 
-.diferencias-setor {
-    margin-top: 48px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 24px;
-}
-
-.diferencial-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.diferencial-item i {
-    background-color: #DFD8E9;
-    padding: 8px;
-    border-radius: 4px;
-    color: var(--cor-p2);
-}
-
-.diferencial-item span {
-    font-weight: 500;
+.banner-controller .banner-content {
+    height: 600px;
 }
 
 .subtitulo-banner {
@@ -47,23 +60,13 @@
 
 .titulo-banner {
     font-weight: bold;
-    margin-top: -6px;
-    margin-bottom: 8px;
+    margin-top: -0.375rem;
+    margin-bottom: 0.5rem;
     line-height: 1.3;
 }
 
 .descricao-banner {
     font-size: 1.1rem;
-}
-
-.imagem-banner {
-    display: flex;
-    justify-content: end;
-    padding-top: 40px;
-}
-
-.imagem-banner img {
-    max-width: 95%;
 }
 
 @media (max-width: 1200px) {
@@ -74,31 +77,21 @@
 
 @media (max-width: 1000px) {
     .banner-secundario {
-        padding-top: 40px;
+        padding-top: 2.5rem;
     }
-
+    
     .banner-content {
-        flex-direction: column;
-        gap: 40px;
-        margin-bottom: 60px;
-    }
-
-    .banner-introducao {
-        align-self: flex-start;
-    }
-
-    .imagem-banner {
-        align-self: end;
+        height: 300px;
     }
 }
 
 @media (max-width: 600px) {
     .banner-secundario {
-        padding-top: 60px;
+        padding-top: 3.75rem;
     }
 
     .banner-introducao {
-        padding: 20px 30px 0px 30px;
+        padding: 1.25rem 1.87rem 0rem 1.87rem;
     }
 
     .titulo-banner {
@@ -112,25 +105,11 @@
     .diferencial-item span {
         font-size: 0.9rem;
     }
-
-    .imagem-banner img {
-        max-width: 100vw;
-    }
-
-    .diferencias-setor {
-        grid-template-columns: 1fr;
-        align-items: flex-start;
-    }
 }
 
 @media (max-width: 400px) {
     .banner-introducao {
         max-width: 95%;
-    }
-
-    .imagem-banner {
-        align-self: center;
-        justify-content: center;
     }
 
     .titulo-banner {
@@ -140,11 +119,5 @@
     .descricao-banner {
         font-size: 0.95rem;
     }
-
-    .diferencias-setor {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 }
 
- 
