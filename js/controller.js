@@ -1,2 +1,2 @@
-import initForm from "./modules/sendEmail.js";
+import initForm from "../dist/sendEmail.obs.js";
 initForm();

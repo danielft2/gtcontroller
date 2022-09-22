@@ -68,11 +68,11 @@
     padding: 10px 14px;
     border-radius: 4px;
     border: solid 0.5px transparent;
-    background-color: var(--cor-1);
+    background-color: var(--cor-2);
     outline: none;
     font-size: 0.8rem;
     font-family: inherit;
-    color: var(--cor-4);
+    color: var(--cor-6);
 }
 
 .form-curriculo-group input::placeholder {
@@ -81,7 +81,8 @@
 }
 
 .form-curriculo-group input:focus{
-   border: solid 0.5px #29AAE1;  
+   border: solid 0.5px #29AAE1; 
+   background-color: transparent; 
 }
 
 .form-curriculo button {

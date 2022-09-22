@@ -1,2 +1,2 @@
-import initSendCurriculo from "./modules/sendCurriculo.js";
+import initSendCurriculo from "../dist/sendCurriculo.obs.js";
 initSendCurriculo();

@@ -37,13 +37,11 @@ export default function initSendCurriculo() {
         if (getCookie("_ga")) {
             btnForm.style.display = 'none';
             btnEnvio.classList.toggle('active');
-    
-            fetch(`${base_URL}/sendCurriculo`, {
-                method: "POST",
-                body: getDataForm(),
-                headers: {
-                    'TOKEN': 'MDKDJIJUUU8RUG8RKFEOKFOEFU8EUF83020KF2435Ppdzdx76287zvgvfx16368gt',
-                }
+            
+            fetch(`${base_URL}/sendCurriculo`, { method: "POST", body: getDataForm() })
+            .then(res => {
+                if (res.status === 200) return res.json();
+                throw new Error('the email was not sent');
             })
             .then(res => {    
                 modalSucess.classList.add('active');

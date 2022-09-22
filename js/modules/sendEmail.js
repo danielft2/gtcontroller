@@ -41,13 +41,16 @@ export default function initForm() {
             btnForm.style.display = 'none';
             btnEnvio.classList.toggle('active');
             
-            fetch(`${base_URL}/send`, {
+            fetch(`${base_URL}/send`, { 
                 method: "POST",
                 body: JSON.stringify(getDataForm()),
                 headers: {
-                    'Content-Type': 'application/json; charset=utf-8',
-                    'TOKEN': 'MDKDJIJUUU8RUG8RKFEOKFOEFU8EUF83020KF2435Ppdzdx76287zvgvfx16368gt',
+                    'Content-Type': 'application/json; charset=utf-8'
                 },
+            })
+            .then(res => {
+                if (res.status === 200) return res.json();
+                throw new Error('the email was not sent');
             })
             .then(res => {    
                 modalSucess.classList.add('active');

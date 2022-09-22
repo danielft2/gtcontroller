@@ -1,5 +1,5 @@
-import initDropdown from "./modules/dropdown.js";
-import initAnimation from "./modules/animation.js";
+import initDropdown from "../dist/dropdown.obs.js";
+import initAnimation from "../dist/animation.obs.js";
 
 initAnimation();
 initDropdown();
