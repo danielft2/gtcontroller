@@ -81,7 +81,7 @@
 }
 
 .btn-servico:hover {
-    color: var(--cor-p2);
+    color: var(--cor-p1-hover);
 }
 
 .solucao .servico-item-img::after,
