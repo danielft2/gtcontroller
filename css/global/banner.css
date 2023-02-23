@@ -1,7 +1,7 @@
 .banner-controller {
     background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
     url('../../assets/controller/gerais/controller-bg.jpg');
-    height: 653px;
+    height: calc(100vh - 80px);
 }
 
 .banner-sistemas {
@@ -16,6 +16,12 @@
     height: 400px;
 }
 
+.banner-educacional {
+    background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
+    url('../../assets/educacional/gerais/banner-educacional.jpg');
+    height: 400px;
+}
+
 .banner-previdencia {
     background-image: linear-gradient(109.36deg, rgba(0, 0, 0, 0.51) 21.7%, rgba(0, 0, 0, 0.52) 98.36%), 
     url('../../assets/previdencia/gerais/banner-previdencia.jpg');
@@ -27,7 +33,6 @@
     url('../../assets/oportunidades/gerais/banner-oportunidades.jpg');
     height: 400px;
 }
-
 
 .banner-secundario {
     margin-top: 5rem;
@@ -50,7 +55,7 @@
 }
 
 .banner-controller .banner-content {
-    height: 600px;
+    height: calc(100vh - 80px);
 }
 
 .subtitulo-banner {

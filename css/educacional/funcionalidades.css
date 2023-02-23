@@ -1,0 +1,144 @@
+
+.educacional-funcionalides {
+   background-image: url('../../assets/educacional/gerais/banner-funcionalides.jpg');
+   background-position: top;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-width: 100vw;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   padding: 8rem 0rem 8rem 0rem;
+}
+
+.funcionalides-flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 3rem;
+}
+
+.funcionalidades-left {
+   width: 55%;
+}
+
+.funcionalidades-left span {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+
+.funcionalidades-left p {
+   font-size: 0.95rem;
+}
+
+.funcionalidades-rigth {
+   width: 45%;
+}
+
+.funcionalidades-rigth-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+   gap: 16px;
+}
+
+.funcionalidade-card {
+   background-color: white;
+   width: 250px;
+   height: 160px;
+   box-shadow: 0 0 20px 3px rgb(0 0 0 / 8%);
+
+   padding: 1.5rem;
+   
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 0.9rem;
+
+   border-radius: 4px;
+}
+
+.funcionalidade-card::before {
+   content: '';
+   width: 3px;
+   height: 80%;
+   position: absolute;
+   top: 10%;
+   left: 0;
+
+   background-color: var(--cor-p3);
+}
+
+.funcionalidade-card-header span {
+   background-color: #F7F2FF;
+   padding: 0.5rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: 4px;
+}
+
+.funcionalidade-card-header span i {
+   color: var(--cor-p3);
+}
+
+.funcionalides-card-content h1 {
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+.funcionalides-card-content p {
+   font-size: 0.7rem;
+}
+
+@media (max-width: 1300px) {
+   .funcionalides-flex {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+
+   .funcionalidades-rigth, .funcionalidades-left {
+      width: 100%;
+   }
+   
+
+   .funcionalidades-rigth-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+   }
+}
+
+@media (max-width: 700px) {
+   
+   .educacional-funcionalides {
+      padding: 4rem 0rem 8rem 0rem;
+   }
+
+   .educacional-title {
+      font-size: 1.4rem;
+   }
+}
+
+@media (max-width: 650px) {
+   .educacional-title {
+      font-size: 1.4rem;
+   }
+
+   .funcionalidade-card {
+      width: 100%;
+   }
+
+   .funcionalidades-rigth-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+   }
+}
+
+@media (max-width: 650px) {
+   .educacional-title {
+      font-size: 1.4rem;
+   }
+}

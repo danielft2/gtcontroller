@@ -1,0 +1,152 @@
+.educacional-aplicativos {
+   width: 100vw;
+   min-height: 500px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   padding: 2rem 0rem;
+}
+
+.educacional-aplicativos-flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.aplicativos-left {
+   width: 50%;
+   height: 300px;
+}
+
+.educacional-aplicativos-rigth {
+   height: 600px
+}
+
+.aplicativos-left .aplicativos-left-subtitle {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+
+.educacional-aplicativos-rigth-animation {
+   animation: float 2s infinite;
+   height: 100%;
+}
+
+.educacional-aplicativos-rigth-animation img {
+   max-height: 100%;
+}
+
+@keyframes float {
+   0% {
+      transform: translate3d(0px, 0px, 0);
+   }
+   50% {
+      transform: translate3d(1px, 5px, 0);
+
+   }
+   100% {
+      transform: translate3d(0px, 0px, 0);
+   }
+}
+
+.tab-links-aplicativos {
+   display: flex;
+   gap: 48px;
+   border-bottom: solid 2px var(--cor-2);
+   width: 90%;
+   padding-bottom: 8px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
+
+.tab-links-aplicativos button {
+   background-color: transparent;
+   border: none;
+   color: var(--cor-5);
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+
+   position: relative;
+   cursor: pointer;
+
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+.tab-links-aplicativos button::after {
+   content: '';
+   width: 0;
+   height: 2px;
+   background-color: var(--cor-p1);
+
+   position: absolute;
+   bottom: -10px;
+   left: -8px;
+   border-radius: 999px;
+
+   transition: all 0.3s linear;
+}
+
+.tab-links-aplicativos button.active::after {
+   width: 110%;
+}
+
+.tab-links-aplicativos button.active {
+   color: var(--cor-p1);
+}
+
+.tab-content-app p {
+   font-size: 0.85rem;
+   max-width: 90%;
+   margin-bottom: 16px;
+}
+
+.tab-content-app-loja {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+@media (max-width: 950px) {
+   .educacional-aplicativos-flex {
+      flex-direction: column-reverse;
+      gap: 3rem;
+   }
+
+   .educacional-aplicativos-rigth {
+      height: 500px
+   }
+   
+   .aplicativos-left {
+      width: 100%;
+      height: 400px;
+   }
+
+   .tab-links-aplicativos {
+      width: 100%;
+   }
+   
+   .tab-links-aplicativos button {
+      font-size: 0.8rem;
+   }
+   
+   .tab-content-app p {
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 500px) {
+   .aplicativos-left {
+      width: 100%;
+      height: auto;
+   }
+
+   .educacional-aplicativos-rigth {
+      height: 400px
+   }
+}

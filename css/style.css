@@ -22,13 +22,24 @@
 @import './sistemas/solucoes.css';
 @import './sistemas/contato.css';
 
+/*Oportunidades*/
 @import './oportunidades/introducao.css';
 @import './oportunidades/form.css';
 
+/*Assesoria*/
 @import './assessoria/introducao.css';
 @import './assessoria/tiposAssessorias.css';
 
+/*Gestão Educacional*/
+@import './educacional/funcionalidades.css';
+@import './educacional/sobre.css';
+@import './educacional/aplicativos.css';
+@import './educacional/modulos.css';
+@import './educacional/depoimento.css';
+
+/*Previdência*/
 @import './previdencia/introducao.css';
 @import './previdencia/assessoriaPrevidenciaria.css';
 
+/*Privacidade*/
 @import './privacidade/politica.css';

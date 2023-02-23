@@ -1,0 +1,123 @@
+.educacional-depoimentos {
+   margin: 4rem 0rem;
+   margin-bottom: 6rem;
+}
+
+.educacional-depoimentos-container {
+   position: relative;
+}
+
+.educacional-depoimentos-intro {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.educacional-depoimentos-intro span {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+}
+
+.educacional-depoimentos-intro p {
+   font-size: 0.95rem;
+}
+
+.depoimento-item {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 1rem;
+}
+
+.depoimento-item .depoimento-item-left {
+   width: 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.depoimento-item .depoimento-item-rigth {
+   width: 65%;
+}
+
+.depoimento-item-left img {
+   object-fit: contain;
+}
+
+.depoimento-item .depoimento-item-rigth p {
+   font-style: italic;
+   font-family: 'Roboto';
+   font-size: 0.95rem;
+   line-height: 1.5rem;
+}
+
+.depoimento-item-rigth .depoimento-item-autor {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 1rem;
+}
+
+.depoimento-item-autor .autor-nome {
+   font-family: 'Roboto';
+   font-size: 0.9rem;
+   font-weight: 500
+}
+
+.depoimento-item-autor .autor-funcao {
+   font-family: 'Roboto';
+   font-size: 0.8rem;
+}
+
+.swiper {
+   position: static !important;
+}
+
+.controll-slide {
+   background-color: transparent;
+   border: none;
+   padding: 1rem;
+   position: absolute;
+   cursor: pointer;
+}
+
+.button-prev {
+   top: 5%;
+   left: -40px;
+}
+
+.button-next {
+   top: 5%;
+   right: -40px;
+}
+
+@media (max-width: 950px) {
+   .educacional-depoimentos-intro {
+      margin-bottom: 2rem;
+   }
+
+   .depoimento-item {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   
+   .depoimento-item .depoimento-item-left {
+      width: 30%;
+   }
+
+   .depoimento-item .depoimento-item-rigth {
+      width: 100%;
+   }
+
+   .educacional-depoimentos-intro {
+      align-items: flex-start;
+   }
+}
+
+@media (max-width: 600px) {
+   .controll-slide {
+      display: none;
+   }
+}
+

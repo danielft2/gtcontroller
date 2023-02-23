@@ -1,4 +1,4 @@
-const base_URL = "https://api-rest-gt.herokuapp.com";
+const base_URL = "https://apiemail.gtcontroller.com.br";
 
 export default function initForm() {
     const form = document.querySelector('.form-email');

@@ -1,0 +1,74 @@
+.educacional-sobre {
+   margin: 8rem 0rem 2rem 0rem;
+}
+
+.educacional-sobre-flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+   background-color: #D1D4D6;
+   padding: 1rem 6rem 1rem 0rem;
+   border-radius: 6px;
+}
+
+.educacional-sobre-left {
+   width: 40%;
+}
+
+.educacional-sobre-rigth {
+   width: 60%;
+   display: flex;
+   padding-left: 2rem;
+   flex-direction: column;
+   gap: 3rem;
+}
+
+.sobre-rigth-intro span {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.9rem;
+   gap: 1rem;
+}
+
+.sobre-rigth-intro p {
+   font-size: 0.9rem;
+}
+
+.sobre-rigth-data {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 4rem;
+}
+
+.rigth-data-item {
+   display: flex;
+   flex-direction: column;
+}
+
+.data-item-number {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.data-item-title {
+   font-weight: 500;
+   font-size: 0.95rem
+}
+
+@media (max-width: 950px) {
+   .educacional-sobre {
+      margin: 4rem 0rem 0rem 0rem;
+   }
+
+   .educacional-sobre-rigth {
+      width: 100%;
+   }
+
+   .educacional-sobre-flex {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 3rem 2rem 8rem 0rem;
+   } 
+}
