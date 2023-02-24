@@ -114,7 +114,7 @@
 
 @media (max-width: 950px) {
    .educacional-aplicativos-flex {
-      flex-direction: column-reverse;
+      flex-direction: column;
       gap: 3rem;
    }
 
