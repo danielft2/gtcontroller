@@ -112,12 +112,18 @@
    }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
    
    .educacional-funcionalides {
-      padding: 4rem 0rem 8rem 0rem;
+      padding: 2rem 0rem 2rem 0rem;
    }
 
+   .educacional-title {
+      font-size: 1.4rem;
+   }
+}
+
+@media (max-width: 700px) {
    .educacional-title {
       font-size: 1.4rem;
    }
