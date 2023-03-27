@@ -16,8 +16,8 @@
 }
 
 .aplicativos-left {
-   width: 50%;
-   height: 300px;
+   width: 60%;
+   height: 450px;
 }
 
 .educacional-aplicativos-rigth {
@@ -68,6 +68,7 @@
    color: var(--cor-5);
    font-family: 'Poppins', sans-serif;
    font-weight: 500;
+   padding: 0px 6px 0px 10px;
 
    position: relative;
    cursor: pointer;
@@ -85,7 +86,7 @@
 
    position: absolute;
    bottom: -10px;
-   left: -8px;
+   left: 0;
    border-radius: 999px;
 
    transition: all 0.3s linear;
@@ -103,6 +104,20 @@
    font-size: 0.85rem;
    max-width: 90%;
    margin-bottom: 16px;
+}
+
+.tab-content-app li {
+   list-style: none;
+   font-size: 0.85rem;
+   margin-top: 24px;
+}
+
+.tab-content-app span {
+   font-weight: 500;
+}
+
+.tab-content-app p {
+   margin-bottom: 4px;
 }
 
 .tab-content-app-loja {
@@ -148,5 +163,9 @@
 
    .educacional-aplicativos-rigth {
       height: 400px
+   }
+
+   .tab-links-aplicativos {
+      gap: 12px;
    }
 }

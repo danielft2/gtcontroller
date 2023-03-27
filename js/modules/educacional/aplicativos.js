@@ -22,7 +22,6 @@ export default function initTabsApps() {
             hideAllTabContent()
     
             const tabsContent = document.querySelectorAll(`.${id}`);
-            console.log(tabsContent)
             tabsContent.forEach((item) => {
                 item.style.display = 'block';
             })

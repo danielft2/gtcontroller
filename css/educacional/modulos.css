@@ -1,4 +1,19 @@
 .educacional-modulos {
    width: 100vw;
+   position: relative;
 }
 
+.educacional-modulos .button-prev {
+   top: 45%;
+   left: 10px;
+}
+
+.educacional-modulos .button-next {
+   top: 45%;
+   right: 20px;
+}
+
+.educacional-modulos .controll-slide {
+   color: white;
+   z-index: 999;
+}

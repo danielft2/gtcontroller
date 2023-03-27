@@ -6,7 +6,12 @@ export default function initSlidesModulos() {
             slidesPerView: 1,
             loop: true,
             autoplay: {
-               delay: 6000,
+               delay: 5000,
+            },
+
+            navigation: {
+               nextEl: '.button-next',
+               prevEl: '.button-prev',
             },
          });
       }

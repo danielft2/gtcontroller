@@ -10,13 +10,12 @@
    flex-direction: column;
    justify-content: center;
 
-   padding: 8rem 0rem 8rem 0rem;
+   padding: 6rem 0rem 6rem 0rem;
 }
 
 .funcionalides-flex {
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   flex-direction: column;
    gap: 3rem;
 }
 
@@ -34,23 +33,17 @@
    font-size: 0.95rem;
 }
 
-.funcionalidades-rigth {
-   width: 45%;
-}
-
 .funcionalidades-rigth-grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+   grid-template-columns: repeat(2, 1fr);
    gap: 16px;
 }
 
 .funcionalidade-card {
    background-color: white;
-   width: 250px;
-   height: 160px;
    box-shadow: 0 0 20px 3px rgb(0 0 0 / 8%);
 
-   padding: 1.5rem;
+   padding: 2rem;
    
    position: relative;
 
@@ -87,12 +80,12 @@
 }
 
 .funcionalides-card-content h1 {
-   font-size: 0.8rem;
+   font-size: 0.85rem;
    font-weight: 600;
 }
 
 .funcionalides-card-content p {
-   font-size: 0.7rem;
+   font-size: 0.8rem;
 }
 
 @media (max-width: 1300px) {
@@ -101,19 +94,12 @@
       align-items: flex-start;
    }
 
-
    .funcionalidades-rigth, .funcionalidades-left {
       width: 100%;
-   }
-   
-
-   .funcionalidades-rigth-grid {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
    }
 }
 
 @media (max-width: 900px) {
-   
    .educacional-funcionalides {
       padding: 2rem 0rem 2rem 0rem;
    }
@@ -136,10 +122,14 @@
 
    .funcionalidade-card {
       width: 100%;
+      min-height: 240px;
    }
 
+   
    .funcionalidades-rigth-grid {
-      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
    }
 }
 

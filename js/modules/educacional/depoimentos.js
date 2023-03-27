@@ -6,12 +6,10 @@ export default function initDepoimentos() {
             slidesPerView: 1,
             autoplay: true,
           
-   
             navigation: {
               nextEl: '.button-next',
               prevEl: '.button-prev',
             },
-          
          });
       }
 
