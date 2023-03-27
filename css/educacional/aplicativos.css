@@ -17,7 +17,6 @@
 
 .aplicativos-left {
    width: 60%;
-   height: 750px;
 }
 
 .educacional-aplicativos-rigth {
@@ -139,7 +138,6 @@
    
    .aplicativos-left {
       width: 100%;
-      height: auto;
    }
 
    .tab-links-aplicativos {
@@ -158,7 +156,6 @@
 @media (max-width: 500px) {
    .aplicativos-left {
       width: 100%;
-      height: auto;
    }
 
    .educacional-aplicativos-rigth {
